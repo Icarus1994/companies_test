@@ -1,5 +1,0 @@
-# 给定无序数组，求中位数（或者指定第k个大的数，都可以）
-# median of medians算法
-# 思路参考： http://www.voidcn.com/article/p-xhjpeqis-bqr.html
-# 伪代码参考wiki: https://en.wikipedia.org/wiki/Median_of_medians#Proof_of_O(n)_running_time
-# 为什么最坏时间复杂度为O(n): http://www.isnowfy.com/top-k-number/
