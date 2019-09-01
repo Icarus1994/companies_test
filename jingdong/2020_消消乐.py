@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019-08-25 15:39
 # @Author : icarusyu
-# @FileName: 2019_消消乐.py
+# @FileName: 2020_消消乐.py
 # @Software: PyCharm
 import itertools
 
@@ -49,4 +49,5 @@ l = [[3, 1, 2, 1, 1],
      [3, 1, 2, 2, 2]]
 print(xxx(l))
 
-# 消消乐参考的是leetcode 700多题目
+# 消消乐参考的是leetcode 723
+# 参考：https://www.cnblogs.com/grandyang/p/7858414.html
