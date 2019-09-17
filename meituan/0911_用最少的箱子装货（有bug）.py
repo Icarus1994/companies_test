@@ -12,7 +12,7 @@ def f():
     for i in range(n):
         tup.append((v[i],i))
     tup.sort(key= lambda t:t[0])
-    # print('tup',tup)
+    print('tup',tup)
     delta = []
     sum = 0
     for i in range(n):
