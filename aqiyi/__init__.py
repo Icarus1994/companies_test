@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019-09-08 16:00
 # @Author : icarusyu
-# @FileName: __init__.py.py
+# @FileName: stone.py.py
 # @Software: PyCharm
 import itertools
 

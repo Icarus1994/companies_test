@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019-09-17 20:09
 # @Author : icarusyu
-# @FileName: __init__.py.py
+# @FileName: stone.py.py
 # @Software: PyCharm
 def f():
     line = list(map(int,input().split()))
