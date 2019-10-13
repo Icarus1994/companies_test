@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019-10-09 19:55
 # @Author : icarusyu
-# @FileName: __init__.py.py
+# @FileName: 58_2.py.py
 # @Software: PyCharm
 def f():
     n = int(input())
