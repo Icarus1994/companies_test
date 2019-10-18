@@ -22,4 +22,4 @@ class Solution:
                     max_v = dp[i][j] if dp[i][j] > max_v else max_v
         return max_v
 # 最长公共子串问题
-# 动态数组dp[i][j]表示以A[j],B[j]结尾的A[:j],B[:i]数组的公共子串长度
+# 动态数组dp[i][j]表示以A[j],B[j]结尾的A[:j+1],B[:i+1]数组的公共子串长度

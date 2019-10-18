@@ -20,6 +20,7 @@ class Solution:
             up = down
             down = [0 for i in range(len(A) + 1)]
         return up[-1]
+
     # 空间复杂度len(A) * len(B)
     def LCS(self,A,B):
         if not A or not B:
