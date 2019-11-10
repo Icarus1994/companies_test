@@ -12,3 +12,6 @@
 # T(n) <= T(n/5) + T(n*7/10) + O(n)
 # 参考：https://todebug.com/BFPRT/
 # https://blog.csdn.net/qq_26437925/article/details/53809495
+# https://blog.csdn.net/kobbbb/article/details/46358707
+
+#

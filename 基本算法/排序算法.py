@@ -42,6 +42,34 @@ def quickSort1(arr):
             stack.append((index+1,r))
     return arr
 
+# 归并排序
+# 用merge_sort和merge方法实现,merge部分
+def merge_sort(lists):
+    if len(lists) <= 1:
+        return lists
+    middle = len(lists)/2
+    left = merge_sort(lists[:middle])
+    right = merge_sort(lists[middle:])
+    return merge(left, right)
+
+def merge(left,right):
+    arr = []
+    p,q = 0,0
+    while p< len(left) and q < len(right):
+        while p<len(left) and left[p] <= right[q]:
+            arr.append(left[p])
+            p+=1
+        if p==len(left):
+            arr.extend(right[q:])
+            break
+        while q<len(right) and right[q] <=left[p]:
+            arr.append(right[q])
+            q+=1
+        if q == len(right):
+            arr.extend(left[p:])
+            break
+    return arr
+
 
 
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019-10-18 18:58
 # @Author : icarusyu
-# @FileName: __init__.py.py
+# @FileName: 1.py.py
 # @Software: PyCharm
 def without7(i):
     while i>0:

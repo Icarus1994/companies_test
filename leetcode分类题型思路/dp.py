@@ -68,4 +68,17 @@ for j in range(1,len(s)+1)
 【注意】动态规划中两个要注意遍历dp数组时顺序的题
 判断回文串，for j in range(1,n+1) for i in range(1,j+1)
 139 字符串能否由词典的词分割 for j,for i
+
+140 hard
+
+322 coin change背包
+给定面额，求用硬币组成该面额的最小数量
+dp = [sys.maxsize] * (amount+1)
+        for coin in coins: # ！！！
+            if coin <= amount:
+                dp[coin] =1
+            for i in range(coin+1,amount+1,1):
+                if dp[i-coin] != sys.maxsize:
+                    dp[i] = min(dp[i], dp[i-coin] +1) # ！！！
+        return -1 if dp[-1] == sys.maxsize else dp[-1]
 '''
